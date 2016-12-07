@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project1</title>
+
+		
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	</head>
+
+	<body>
+		<h1 style="color:blue;">1st project</h1>
+
+
+		<ul>
+  			<li><a href="Site_Foure_Tout.html">Home</a></li>
+  			<li><a href="Project1.html">Timer</a></li>
+  			<li><a href="Project2.html">Mini Jeu</a></li>
+  			<li><a href="Project3.html">Project3</a></li>
+		</ul>
+
+		
+
+		<div id="count">Countdown Starting now</div>
+
+
+		<script>
+
+			function runTimer() {
+
+				var theDiv = document.getElementById("count");
+
+				setTimeout(function(){
+
+					theDiv.innerHTML = "3 seconds"
+				},1000);
+
+
+				setTimeout(function(){
+
+					theDiv.innerHTML = "2 seconds"
+				},2000);
+
+
+				setTimeout(function(){
+
+					theDiv.innerHTML = "1 seconds"
+				},3000);
+
+			}
+
+			runTimer();
+
+		</script>
+
+
+
+
+	</body>
+
+</html>
